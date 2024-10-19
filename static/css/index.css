@@ -50,10 +50,19 @@ button {
 	padding: 10px;
 	width: 90px;
 }
-
-h1 {
-	text-align: center;
-	color: white;
-	font-size: 50px;
-	white-space: nowrap;
-}
+.title {
+    font-size: 10vh;
+    color: white;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 0px 0px 5px 5px;
+    margin-top: 30vh;
+    margin-bottom: 5vh;
+    transition: 0.35s ease;
+    text-shadow: 2px 4px 6px rgb(0, 0, 0, 0.2);
+ }
+ .title:hover {
+    transform: translateY(-5%) scale(1.03);
+    font-weight: 800;
+ }
