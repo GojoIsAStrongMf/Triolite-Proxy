@@ -5,17 +5,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Home</title>
 	<style type="text/css">
+        body {
+        background: url("imgs/spacebackground.png");
+        }
 		*{
 			text-decoration: none;
 		}
 		.navbar{
-			background: rgb(37, 23, 26); font-family: calibri; padding-right: 15px;padding-left: 15px;
+			background:black; font-family: calibri; padding-right: 15px;padding-left: 15px;
 		}
 		.navdiv{
 			display: flex; align-items: center; justify-content: space-between;
 		}
 		.logo a{
-			font-size: 35px; font-weight: 600; color: white;
+			cursor: pointer;
 		}
 		li{
 			list-style: none; display: inline-block;
@@ -24,7 +27,7 @@
 			color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
 		}
 		button{
-			background-color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+			background-color: white; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
 		}
 		button a{
 			color: white; font-weight: bold; font-size: 15px;
@@ -34,13 +37,14 @@
 <body>
 	<nav class="navbar">
 		<div class="navdiv">
-			<div class="logo"><a href="#">Triolite Proxy</a> </div>
+			<img class="logo" src="imgs/TPXX-removebg-preview.png" width="150" 
+     height="150" alt="logo">
 			<ul>
 				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
-				<button><a href="#">SignIn</a></button>
-				<button><a href="#">SignUp</a></button>
+				<li><a href="#">Games</a></li>
+				<li><a href="#">Apps</a></li>
+				<button><a href="#">Emulaters</a></button>
+				<button><a href="#">Settings</a></button>
 			</ul>
 		</div>
 	</nav>
